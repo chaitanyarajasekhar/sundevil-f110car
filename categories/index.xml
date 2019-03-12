@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mediumish</title>
-    <link>/categories/</link>
+    <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/categories/</link>
     <description>Recent content in Categories on Mediumish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Chaitanya Rajasekhar - All rights reserved</copyright>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
