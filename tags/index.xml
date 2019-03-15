@@ -1,32 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Autonomous Multi-agent Driving</title>
+    <title>Tags on sundevil-f1/10car</title>
     <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/</link>
-    <description>Recent content in Tags on Autonomous Multi-agent Driving</description>
+    <description>Recent content in Tags on sundevil-f1/10car</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Chaitanya Rajasekhar - All rights reserved</copyright>
-    <lastBuildDate>Sun, 07 Oct 2018 11:40:14 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 07 Oct 2018 11:17:14 +0200</lastBuildDate>
     
 	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Drink</title>
-      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/drink/</link>
-      <pubDate>Sun, 07 Oct 2018 11:40:14 +0200</pubDate>
+      <title>Razor Imu</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/razor-imu/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
       
-      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/drink/</guid>
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/razor-imu/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Interesting</title>
-      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/interesting/</link>
-      <pubDate>Sun, 07 Oct 2018 11:40:14 +0200</pubDate>
+      <title>Rc Car</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/rc-car/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
       
-      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/interesting/</guid>
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/rc-car/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rp Lidar</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/rp-lidar/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/rp-lidar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tx2</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/tx2/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/tx2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vesc</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/vesc/</link>
+      <pubDate>Sun, 07 Oct 2018 11:39:10 +0200</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/vesc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zed Camera</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/zed-camera/</link>
+      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/zed-camera/</guid>
       <description></description>
     </item>
     
