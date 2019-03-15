@@ -6,7 +6,7 @@
 	
 	<link rel="icon" href="/sundevil-f110car/images/asu_sunburst_rgb_black_150ppi_1.png">
 	
-	<title>Second | sundevil-f1/10car</title>
+	<title>Updated design | sundevil-f1/10car</title>
 	
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -69,7 +69,7 @@
     <p>Share</p>
     <ul>
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=Second&url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2fsecond%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Updated%20design&url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2fsecond%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
         <i class="fab fa-twitter"></i>
         </a>
         </li>
@@ -111,9 +111,9 @@
                                 <span class="author-description">
                                     Creator of this blog.<br>
                                     <i class="far fa-star"></i>
-                                    Oct 7, 2018
+                                    Mar 10, 2019
                                     <i class="far fa-clock clock"></i>
-                                    1 min read
+                                    2 min read
                                 </span>					
                             </div>
                         </div>			
@@ -121,7 +121,7 @@
                         
                                                 
                         
-                        <h1 class="posttitle">Second</h1> 
+                        <h1 class="posttitle">Updated design</h1> 
                     </div>
 
                     
@@ -134,9 +134,29 @@
                     <div class="article-post">
                         
 
-<h1 id="this-is-another-post">This is another post</h1>
+<h1 id="hardware-design">Hardware design</h1>
 
-<p>Please click on the image below for the video. In the video I have used BLDC_tool from veddar, to set constant steering angle and throttle values to make the car move in circles.</p>
+<p>Our car is based on mit-racecar project but I had to optimize the design because I need to enclose the skeleton into the body to look like a real car. This makes the task of computer vision algorithm easier as the noise from the sensor lights and cable orientations can be avoided by using the body. To place the body I had to remove the second rack in the design of mit-racecar, then I also wanted to place the lidar on the top of the car which will resemble the current self-driving cars and will have a much better view at the environment. My final design would include mounting lidar on the of the top of the body and camera inside the body in front of the windscreen. Final car with the body should something like the image below.</p>
+
+<p><img src="../2/final_car.jpg" alt="alt text" /></p>
+
+<p>For now, I have designed a 3-d model which would resemble the lidar and camera placement until I fix the body. Below is the image of the updated design.</p>
+
+<p><img src="../2/side_view.jpg" alt="alt text" /></p>
+
+<p>As we are using a different VESC, I laser cut an acrylic part to mount the vesc on to the Traxxas base. It can be seen the image below.</p>
+
+<p><img src="../2/vesc_fit.jpg" alt="alt text" />
+<img src="../2/vesc_mount.png" alt="alt text" /></p>
+
+<p>There are one micro USB and one USB 3.0 on the TX2 board. I planned to not use the USB 3.0 extension hub used in mit-racecar design which is bulky and also need a power source. Now, I can only hook the camera to the USB 3.0 and lidar to the micro USB which leaves no space for the VESC and IMU for a USB connection. I choose to use the UART and GPIO pins on TX2 for the VESC and IMU connection which I will explain in a different post.</p>
+
+<p>I had to change the orientation of the tx2 in the base design of the mit-racecar, with that now the antenna and USB cables are pointing backside which makes fitting the body easy. I also have a cool idea to stick the antennas on the back of the body.</p>
+
+<p><img src="../2/base.png" alt="alt text" />
+<img src="../2/tx2_ac.jpg" alt="alt text" /></p>
+
+<p>Please click on the image below for the video. In the video I have used BLDC_tool from Vedder, to set constant steering angle and throttle values to make the car move in circles.</p>
 
 <p><a href="https://www.youtube.com/watch?v=z4atf9BR_3I"><img src="https://img.youtube.com/vi/z4atf9BR_3I/0.jpg" alt="alt text" /></a></p>
 
@@ -147,7 +167,15 @@
                         <ul class="tags">
                         
                         <li>
-                        <a href="/sundevil-f110car/tags/vesc">vesc</a>
+                        <a href="/sundevil-f110car/tags/hardware">hardware</a>
+                        </li>
+                        
+                        <li>
+                        <a href="/sundevil-f110car/tags/sundevil-f1/10car">sundevil-f1/10car</a>
+                        </li>
+                        
+                        <li>
+                        <a href="/sundevil-f110car/tags/demo">demo</a>
                         </li>
                         
                         </ul>
@@ -182,11 +210,17 @@
 		</div>
 		<div class="col-md-8 p-5 align-self-center text-center">
 			
+			<a href="/sundevil-f110car/tags/demo">demo</a>
+			
+			<a href="/sundevil-f110car/tags/hardware">hardware</a>
+			
 			<a href="/sundevil-f110car/tags/razor-imu">razor-imu</a>
 			
 			<a href="/sundevil-f110car/tags/rc-car">rc-car</a>
 			
 			<a href="/sundevil-f110car/tags/rp-lidar">rp-lidar</a>
+			
+			<a href="/sundevil-f110car/tags/sundevil-f1/10car">sundevil-f1/10car</a>
 			
 			<a href="/sundevil-f110car/tags/tx2">tx2</a>
 			

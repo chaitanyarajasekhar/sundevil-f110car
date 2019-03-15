@@ -7,15 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Chaitanya Rajasekhar - All rights reserved</copyright>
-    <lastBuildDate>Sun, 07 Oct 2018 11:17:14 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2019 11:39:10 +0200</lastBuildDate>
     
 	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Demo</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/demo/</link>
+      <pubDate>Sun, 10 Mar 2019 11:39:10 +0200</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/hardware/</link>
+      <pubDate>Sun, 10 Mar 2019 11:39:10 +0200</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Razor Imu</title>
       <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/razor-imu/</link>
-      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      <pubDate>Sat, 09 Mar 2019 11:17:14 +0200</pubDate>
       
       <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/razor-imu/</guid>
       <description></description>
@@ -24,7 +42,7 @@
     <item>
       <title>Rc Car</title>
       <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/rc-car/</link>
-      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      <pubDate>Sat, 09 Mar 2019 11:17:14 +0200</pubDate>
       
       <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/rc-car/</guid>
       <description></description>
@@ -33,16 +51,25 @@
     <item>
       <title>Rp Lidar</title>
       <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/rp-lidar/</link>
-      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      <pubDate>Sat, 09 Mar 2019 11:17:14 +0200</pubDate>
       
       <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/rp-lidar/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Sundevil F1/10car</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/sundevil-f1/10car/</link>
+      <pubDate>Sun, 10 Mar 2019 11:39:10 +0200</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/sundevil-f1/10car/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tx2</title>
       <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/tx2/</link>
-      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      <pubDate>Sat, 09 Mar 2019 11:17:14 +0200</pubDate>
       
       <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/tx2/</guid>
       <description></description>
@@ -51,7 +78,7 @@
     <item>
       <title>Vesc</title>
       <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/vesc/</link>
-      <pubDate>Sun, 07 Oct 2018 11:39:10 +0200</pubDate>
+      <pubDate>Sat, 09 Mar 2019 11:17:14 +0200</pubDate>
       
       <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/vesc/</guid>
       <description></description>
@@ -60,7 +87,7 @@
     <item>
       <title>Zed Camera</title>
       <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/zed-camera/</link>
-      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      <pubDate>Sat, 09 Mar 2019 11:17:14 +0200</pubDate>
       
       <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/zed-camera/</guid>
       <description></description>

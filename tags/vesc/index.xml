@@ -7,24 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Chaitanya Rajasekhar - All rights reserved</copyright>
-    <lastBuildDate>Sun, 07 Oct 2018 11:39:10 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 09 Mar 2019 11:17:14 +0200</lastBuildDate>
     
 	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/vesc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Second</title>
-      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/second/</link>
-      <pubDate>Sun, 07 Oct 2018 11:39:10 +0200</pubDate>
-      
-      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/second/</guid>
-      <description>This is another post Please click on the image below for the video. In the video I have used BLDC_tool from veddar, to set constant steering angle and throttle values to make the car move in circles.</description>
-    </item>
-    
-    <item>
       <title>sundevil-f1/10car</title>
       <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/my-first-post/</link>
-      <pubDate>Sun, 07 Oct 2018 11:17:14 +0200</pubDate>
+      <pubDate>Sat, 09 Mar 2019 11:17:14 +0200</pubDate>
       
       <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/my-first-post/</guid>
       <description>We at Interactive Robotics Lab at ASU are working on RC-car based robotics platform for multi-agent research. We call it f1/10car which stands for Fast - 1/10th (scale) - Cooperative - Autonomous - Robot.</description>

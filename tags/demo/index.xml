@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sundevil-f1/10car</title>
-    <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/</link>
-    <description>Recent content on sundevil-f1/10car</description>
+    <title>Demo on sundevil-f1/10car</title>
+    <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/demo/</link>
+    <description>Recent content in Demo on sundevil-f1/10car</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Chaitanya Rajasekhar - All rights reserved</copyright>
     <lastBuildDate>Sun, 10 Mar 2019 11:39:10 +0200</lastBuildDate>
     
-	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/second/</guid>
       <description>Hardware design Our car is based on mit-racecar project but I had to optimize the design because I need to enclose the skeleton into the body to look like a real car.</description>
-    </item>
-    
-    <item>
-      <title>sundevil-f1/10car</title>
-      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/my-first-post/</link>
-      <pubDate>Sat, 09 Mar 2019 11:17:14 +0200</pubDate>
-      
-      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/my-first-post/</guid>
-      <description>We at Interactive Robotics Lab at ASU are working on RC-car based robotics platform for multi-agent research. We call it f1/10car which stands for Fast - 1/10th (scale) - Cooperative - Autonomous - Robot.</description>
     </item>
     
   </channel>
