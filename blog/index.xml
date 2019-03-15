@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Chaitanya Rajasekhar - All rights reserved</copyright>
-    <lastBuildDate>Sun, 10 Mar 2019 11:39:10 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 14 Mar 2019 20:40:35 -0700</lastBuildDate>
     
 	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VESC Getting Started</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/vesc_getting_started/</link>
+      <pubDate>Thu, 14 Mar 2019 20:40:35 -0700</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/vesc_getting_started/</guid>
+      <description>My advice is if you are setting up for the first time, it is easy to do it on PC than TX2.
+Required Download VESC_tool from vesc-project.</description>
+    </item>
     
     <item>
       <title>Updated design</title>

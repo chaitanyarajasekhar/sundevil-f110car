@@ -6,7 +6,7 @@
 	
 	<link rel="icon" href="/sundevil-f110car/images/asu_sunburst_rgb_black_150ppi_1.png">
 	
-	<title>Updated design | sundevil-f1/10car</title>
+	<title>VESC Getting Started | sundevil-f1/10car</title>
 	
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -69,25 +69,25 @@
     <p>Share</p>
     <ul>
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=Updated%20design&url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2fsecond%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=VESC%20Getting%20Started&url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2fvesc_getting_started%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
         <i class="fab fa-twitter"></i>
         </a>
         </li>
         
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2fsecond%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2fvesc_getting_started%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
         <i class="fab fa-facebook-f"></i>
         </a>
         </li>
         
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://plus.google.com/share?url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2fsecond%2f" onclick="window.open(this.href, 'google-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://plus.google.com/share?url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2fvesc_getting_started%2f" onclick="window.open(this.href, 'google-share', 'width=550,height=435');return false;">
         <i class="fab fa-google"></i>
         </a>
         </li>
 
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2fsecond%2f" onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2fvesc_getting_started%2f" onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
         <i class="fab fa-xing"></i>
         </a>
         </li>        
@@ -111,7 +111,7 @@
                                 <span class="author-description">
                                     Creator of this blog.<br>
                                     <i class="far fa-star"></i>
-                                    Mar 10, 2019
+                                    Mar 14, 2019
                                     <i class="far fa-clock clock"></i>
                                     2 min read
                                 </span>					
@@ -121,12 +121,12 @@
                         
                                                 
                         
-                        <h1 class="posttitle">Updated design</h1> 
+                        <h1 class="posttitle">VESC Getting Started</h1> 
                     </div>
 
                     
                     
-                        <img class="featured-image img-fluid" src="/sundevil-f110car/images/blog/2.jpg" alt="thumbnail for this post">
+                        <img class="featured-image img-fluid" src="/sundevil-f110car/images/blog/3.jpg" alt="thumbnail for this post">
                     
                     
                     
@@ -134,31 +134,33 @@
                     <div class="article-post">
                         
 
-<h1 id="hardware-design">Hardware design</h1>
+<p>My advice is if you are setting up for the first time, it is easy to do it on PC than TX2.</p>
 
-<p>Our car is based on mit-racecar project but I had to optimize the design because I need to enclose the skeleton into the body to look like a real car. This makes the task of computer vision algorithm easier as the noise from the sensor lights and cable orientations can be avoided by using the body. To place the body I had to remove the second rack in the design of mit-racecar, then I also wanted to place the lidar on the top of the car which will resemble the current self-driving cars and will have a much better view at the environment. My final design would include mounting lidar on the of the top of the body and camera inside the body in front of the windscreen. Final car with the body should something like the image below.</p>
+<h3 id="required">Required</h3>
 
-<p><img src="../2/final_car.jpg" alt="alt text" /></p>
+<p>Download VESC_tool from <a href="https://vesc-project.com/">vesc-project</a>. This will work with PC. If you want to download it for TX2 then you have to compile the whole package from <a href="https://github.com/vedderb/vesc_tool">github</a>. Most of the VESC&rsquo;s currently in the market need vesc_tool. Download bldc_tool from <a href="https://github.com/vedderb/bldc-tool">github</a> and compile and make the project.</p>
 
-<p>For now, I have designed a 3-d model which would resemble the lidar and camera placement until I fix the body. Below is the image of the updated design.</p>
+<p>Install ACM module to use it with TX2, follow the jetsonhacks <a href="https://github.com/jetsonhacks/installACMModule">guide</a>. Make sure the ACM port is added to dialout group.</p>
 
-<p><img src="../2/side_view.jpg" alt="alt text" /></p>
+<h3 id="setting-up">Setting Up</h3>
 
-<p>As we are using a different VESC, I laser cut an acrylic part to mount the vesc on to the Traxxas base. It can be seen the image below.</p>
+<p>When the battery is connected only the blue light should be on. If there the red light is blinking then it means there is some fault, in my case it was because the default battery voltage mismatch. It can be updated once it is connected to bldc_tool or vesc_tool.</p>
 
-<p><img src="../2/vesc_fit.jpg" alt="alt text" />
-<img src="../2/vesc_mount.png" alt="alt text" /></p>
+<p><img src="../3/vesc_on.jpg" alt="alt text" />
+<img src="../3/vesc_fault.jpg" alt="alt text" /></p>
 
-<p>There are one micro USB and one USB 3.0 on the TX2 board. I planned to not use the USB 3.0 extension hub used in mit-racecar design which is bulky and also need a power source. Now, I can only hook the camera to the USB 3.0 and lidar to the micro USB which leaves no space for the VESC and IMU for a USB connection. I choose to use the UART and GPIO pins on TX2 for the VESC and IMU connection which I will explain in a different post.</p>
+<p>New VESC&rsquo;s need to be connected to vesc_tool. Click connect on the vesc_tool once the usb is hooked up to the PC. Then downgrade the</p>
 
-<p>I had to change the orientation of the tx2 in the base design of the mit-racecar, with that now the antenna and USB cables are pointing backside which makes fitting the body easy. I also have a cool idea to stick the antennas on the back of the body.</p>
+<p><img src="../3/vesc_tool_firmware.png" alt="alt text" />
+<img src="../3/bldc_home.png" alt="alt text" />
+<img src="../3/bldc_firmware.png" alt="alt text" />
+<img src="../3/uploading_firmware.png" alt="alt text" />
+<img src="../3/bldc_serv.png" alt="alt text" /></p>
 
-<p><img src="../2/base.png" alt="alt text" />
-<img src="../2/tx2_ac.jpg" alt="alt text" /></p>
+<p>I have removed the camera module in the TX2 dev kit to use the UART1 on the pin J17 which is listed as dev/ttyTHS2. Connect the RX,TX, GND on P3 of VESC respectively to J17 pin header on TX2. Connection setup as well as pinout for J17 on TX2 is shown below.</p>
 
-<p>Please click on the image below for the video. In the video I have used BLDC_tool from Vedder, to set constant steering angle and throttle values to make the car move in circles.</p>
-
-<p><a href="https://www.youtube.com/watch?v=z4atf9BR_3I"><img src="https://img.youtube.com/vi/z4atf9BR_3I/0.jpg" alt="alt text" /></a></p>
+<p><img src="../3/j17.jpg" alt="alt text" />
+<img src="../3/tx2_pinout.png" alt="alt text" /></p>
 
                     </div>
                     
@@ -171,11 +173,7 @@
                         </li>
                         
                         <li>
-                        <a href="/sundevil-f110car/tags/sundevil-f1/10car">sundevil-f1/10car</a>
-                        </li>
-                        
-                        <li>
-                        <a href="/sundevil-f110car/tags/demo">demo</a>
+                        <a href="/sundevil-f110car/tags/vesc">vesc</a>
                         </li>
                         
                         </ul>
@@ -185,10 +183,8 @@
                     
                     <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
                     
-                        <a class="d-block col-md-6" href="/sundevil-f110car/blog/vesc_getting_started/"> &laquo; VESC Getting Started</a>
                     
-                    
-                        <a class="d-block col-md-6 text-lg-right" href="/sundevil-f110car/blog/my-first-post/">sundevil-f1/10car &raquo;</a>
+                        <a class="d-block col-md-6 text-lg-right" href="/sundevil-f110car/blog/second/">Updated design &raquo;</a>
                     
                     <div class="clearfix"></div>
                     </div>
