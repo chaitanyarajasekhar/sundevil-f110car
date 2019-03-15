@@ -144,18 +144,33 @@
 
 <h3 id="setting-up">Setting Up</h3>
 
-<p>When the battery is connected only the blue light should be on. If there the red light is blinking then it means there is some fault, in my case it was because the default battery voltage mismatch. It can be updated once it is connected to bldc_tool or vesc_tool.</p>
+<p>When the battery is connected only the blue light should be on.</p>
 
-<p><img src="../3/vesc_on.jpg" alt="alt text" />
-<img src="../3/vesc_fault.jpg" alt="alt text" /></p>
+<p><img src="../3/vesc_on.jpg" alt="alt text" /></p>
 
-<p>New VESC&rsquo;s need to be connected to vesc_tool. Click connect on the vesc_tool once the usb is hooked up to the PC. Then downgrade the</p>
+<p>If there the red light is blinking then it means there is some fault, in my case it was because the default battery voltage mismatch. It can be updated once it is connected to bldc_tool or vesc_tool.</p>
 
-<p><img src="../3/vesc_tool_firmware.png" alt="alt text" />
-<img src="../3/bldc_home.png" alt="alt text" />
-<img src="../3/bldc_firmware.png" alt="alt text" />
-<img src="../3/uploading_firmware.png" alt="alt text" />
-<img src="../3/bldc_serv.png" alt="alt text" /></p>
+<p><img src="../3/vesc_fault.jpg" alt="alt text" /></p>
+
+<p>New VESC&rsquo;s (i.e. Software Firmware &gt; 2.18) need to be connected to vesc_tool. Click connect on the vesc_tool once the usb is hooked up to the PC. To work with <a href="https://github.com/mit-racecar/vesc">vesc ros driver</a> from mit-racecar we need to downgrade the software firmware connection to 2.18. Go to the firmware tab and click custom file and select the file from the firmware folder in the BLDC_tool folder, make sure you have the right hardware version and then select the .bin file with servo option and flash it. Once it is flashed we can use bldc_tool to play around with the VESC.</p>
+
+<p><img src="../3/vesc_tool_firmware.png" alt="alt text" /></p>
+
+<p>Below is the bldc_tool home make sure to enter the correct voltage values (Check the battery) in here and click write configuration button. Usually vesc is connected on to ttyACM0 with USB connection, since I am using UART header on TX2 it shows ttyTHS2.</p>
+
+<p><img src="../3/bldc_home.png" alt="alt text" /></p>
+
+<p>Here is the screenshot of firmware tab in the bldc_tool.</p>
+
+<p><img src="../3/bldc_firmware.png" alt="alt text" /></p>
+
+<p>Here is the example of the servo firmware which is needed to be flashed to control the car.</p>
+
+<p><img src="../3/uploading_firmware.png" alt="alt text" /></p>
+
+<p>In the experiment tab, once both servo of the car and motor are connected to the VESC then by sliding the servo output pointer you can steer the car and run the motor by selecting the duty cycle and rpm values in the control tab.</p>
+
+<p><img src="../3/bldc_serv.png" alt="alt text" /></p>
 
 <p>I have removed the camera module in the TX2 dev kit to use the UART1 on the pin J17 which is listed as dev/ttyTHS2. Connect the RX,TX, GND on P3 of VESC respectively to J17 pin header on TX2. Connection setup as well as pinout for J17 on TX2 is shown below.</p>
 
@@ -174,6 +189,10 @@
                         
                         <li>
                         <a href="/sundevil-f110car/tags/vesc">vesc</a>
+                        </li>
+                        
+                        <li>
+                        <a href="/sundevil-f110car/tags/bldc_tool">bldc_tool</a>
                         </li>
                         
                         </ul>
@@ -207,6 +226,8 @@
 			</div>
 		</div>
 		<div class="col-md-8 p-5 align-self-center text-center">
+			
+			<a href="/sundevil-f110car/tags/bldc_tool">bldc_tool</a>
 			
 			<a href="/sundevil-f110car/tags/demo">demo</a>
 			
