@@ -62,7 +62,7 @@
 <div class="mainheading">
     <h1 class="sitetitle">sundevil-f1/10car</h1>
     <p class="lead">
-         Blog on Autonomous Decentralized Multi-agent Robots.
+         Blog on Autonomous Decentralized Multi-agent Robots. Check out the project page for more information.
     </p>
 </div><div class="main-content">
         
@@ -136,7 +136,7 @@
                     
                     
                     <div class="article-post">
-                        <p>In this demo, I have used Model Predictive Controller to avoid a head-on collision for cars trying to swap their position following their given input trajectories. State information is captured using optitrack motion capture system. ROS is used to communicate with motion capture systems and car&rsquo;s actuators with the MPC.  The dynamics of the car is reduced to the simple kinematic bicycle model which is represented by the equations below. Ipopt package is used to solve the MPC problem to minimize the cost.</p>
+                        <p>In this demo, I have used Model Predictive Controller to avoid a head-on collision for cars trying to swap their position following their given input trajectories. State information is captured using optitrack motion capture system. Motion capture data is subscribed by the controller at 10 Hz using ROS communication stack. The output of the controller i.e. steering angle and throttle values are published to speed controller (VESC) using ROS. The controller runs at 10 Hz.  The dynamics of the car is reduced to the simple kinematic bicycle model which is represented by the equations below. The model predictive control problem is solved using the Interior Point Optimization (Ipopt) method.</p>
 
 <p><img src="../4/model_equations.png" alt="alt text" /></p>
 
