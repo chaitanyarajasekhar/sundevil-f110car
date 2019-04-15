@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Statics on Mediumish</title>
-    <link>https://chaitanyarajasekhar.github.io/static/</link>
-    <description>Recent content in Statics on Mediumish</description>
+    <title>Statics on sundevil-f1/10car</title>
+    <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/static/</link>
+    <description>Recent content in Statics on sundevil-f1/10car</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Chaitanya Rajasekhar - All rights reserved</copyright>
-    <lastBuildDate>Sun, 07 Oct 2018 11:12:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2019 20:40:35 -0700</lastBuildDate>
     
-	<atom:link href="https://chaitanyarajasekhar.github.io/static/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/static/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Imprint</title>
-      <link>https://chaitanyarajasekhar.github.io/static/imprint/</link>
-      <pubDate>Sun, 07 Oct 2018 11:12:00 +0200</pubDate>
+      <title>Probabilistic Deep RL for multi-agent systems</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/static/imprint/</link>
+      <pubDate>Sun, 14 Apr 2019 20:40:35 -0700</pubDate>
       
-      <guid>https://chaitanyarajasekhar.github.io/static/imprint/</guid>
-      <description>Imprint Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/static/imprint/</guid>
+      <description>In this project, we will develop a probabilistic deep reinforcement learning framework that allows for predictive control of complex, physical systems. In particular, we aim at methods that can synthesize controllers in fast-paced, multi-agent settings that involve multiple robotic cars.</description>
     </item>
     
   </channel>

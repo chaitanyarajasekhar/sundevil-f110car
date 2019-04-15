@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Chaitanya Rajasekhar - All rights reserved</copyright>
-    <lastBuildDate>Thu, 14 Mar 2019 20:40:35 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2019 20:40:35 -0700</lastBuildDate>
     
 	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Probabilistic Deep RL for multi-agent systems</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/static/imprint/</link>
+      <pubDate>Sun, 14 Apr 2019 20:40:35 -0700</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/static/imprint/</guid>
+      <description>In this project, we will develop a probabilistic deep reinforcement learning framework that allows for predictive control of complex, physical systems. In particular, we aim at methods that can synthesize controllers in fast-paced, multi-agent settings that involve multiple robotic cars.</description>
+    </item>
     
     <item>
       <title>VESC Getting Started</title>
