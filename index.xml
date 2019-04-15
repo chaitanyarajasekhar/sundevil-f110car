@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Chaitanya Rajasekhar - All rights reserved</copyright>
-    <lastBuildDate>Sun, 14 Apr 2019 20:40:35 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2019 23:33:44 -0700</lastBuildDate>
     
 	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MPC - Collision Avoidance using Motion Capture</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/4_mpc_demo/</link>
+      <pubDate>Sun, 14 Apr 2019 23:33:44 -0700</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/4_mpc_demo/</guid>
+      <description>In this demo, I have used Model Predictive Controller to avoid a head-on collision for cars trying to swap their position following their given input trajectories.</description>
+    </item>
     
     <item>
       <title>Project</title>
@@ -18,7 +27,7 @@
       <pubDate>Sun, 14 Apr 2019 20:40:35 -0700</pubDate>
       
       <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/static/imprint/</guid>
-      <description>Probabilistic Deep Reinforcement Learning for multi-agent systems In this project, we will develop a probabilistic deep reinforcement learning framework that allows for predictive control of complex, physical systems.</description>
+      <description>Probabilistic Deep Reinforcement Learning for multi-agent systems In this project, we are developing a probabilistic deep reinforcement learning framework that allows for predictive control of complex, dynamical systems.</description>
     </item>
     
     <item>
