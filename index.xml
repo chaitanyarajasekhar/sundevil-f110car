@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Chaitanya Rajasekhar - All rights reserved</copyright>
-    <lastBuildDate>Sun, 14 Apr 2019 23:33:44 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2019 11:43:57 -0700</lastBuildDate>
     
 	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Team</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/static/team2/</link>
+      <pubDate>Thu, 25 Apr 2019 11:43:57 -0700</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/static/team2/</guid>
+      <description>Heni Ben Amor Dr. Heni Ben Amor is an Assistant Professor at Arizona State University where he leads the ASU Interactive Robotics Laboratory. He received the NSF CAREER Award as well as the Outstanting Assistant Professor Award in 2018.</description>
+    </item>
     
     <item>
       <title>MPC - Collision Avoidance using Motion Capture</title>
