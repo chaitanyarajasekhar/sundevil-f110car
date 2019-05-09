@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/robotarium_sim_gnn/</loc>
+    <lastmod>2019-05-09T10:28:40-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/5_robotarium_intro/</loc>
     <lastmod>2019-04-26T07:49:15-07:00</lastmod>
   </url>
@@ -45,7 +50,7 @@
   
   <url>
     <loc>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/</loc>
-    <lastmod>2019-04-26T07:49:15-07:00</lastmod>
+    <lastmod>2019-05-09T10:28:40-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -57,6 +62,12 @@
   <url>
     <loc>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/demo/</loc>
     <lastmod>2019-03-10T11:39:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/gnn/</loc>
+    <lastmod>2019-05-09T10:28:40-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -80,7 +91,7 @@
   
   <url>
     <loc>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/multi-agent/</loc>
-    <lastmod>2019-04-26T07:49:15-07:00</lastmod>
+    <lastmod>2019-05-09T10:28:40-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -98,7 +109,7 @@
   
   <url>
     <loc>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/robotarium/</loc>
-    <lastmod>2019-04-26T07:49:15-07:00</lastmod>
+    <lastmod>2019-05-09T10:28:40-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -146,7 +157,7 @@
   
   <url>
     <loc>https://chaitanyarajasekhar.github.io/sundevil-f110car/</loc>
-    <lastmod>2019-04-26T07:49:15-07:00</lastmod>
+    <lastmod>2019-05-09T10:28:40-07:00</lastmod>
     <priority>0</priority>
   </url>
   

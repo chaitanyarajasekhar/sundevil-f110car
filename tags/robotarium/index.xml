@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Chaitanya Rajasekhar - All rights reserved</copyright>
-    <lastBuildDate>Fri, 26 Apr 2019 07:49:15 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2019 10:28:40 -0700</lastBuildDate>
     
 	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/robotarium/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Robotarium GNN Simulation</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/robotarium_sim_gnn/</link>
+      <pubDate>Thu, 09 May 2019 10:28:40 -0700</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/robotarium_sim_gnn/</guid>
+      <description>In the chaser model, agent &amp;lsquo;i&amp;rsquo; tries to chase the agent &amp;lsquo;i+1&amp;rsquo; excluding the edge case condition. In the simulations below, a time step is considered to be 0.</description>
+    </item>
     
     <item>
       <title>Robotarium Intro</title>

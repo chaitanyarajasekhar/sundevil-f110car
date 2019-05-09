@@ -6,7 +6,7 @@
 	
 	<link rel="icon" href="/sundevil-f110car/images/logo_cr_website.png">
 	
-	<title>Robotarium Intro | sundevil-f1/10car</title>
+	<title>Robotarium GNN Simulation | sundevil-f1/10car</title>
 	
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -77,25 +77,25 @@
     <p>Share</p>
     <ul>
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=Robotarium%20Intro&url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2f5_robotarium_intro%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Robotarium%20GNN%20Simulation&url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2frobotarium_sim_gnn%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
         <i class="fab fa-twitter"></i>
         </a>
         </li>
         
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2f5_robotarium_intro%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2frobotarium_sim_gnn%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
         <i class="fab fa-facebook-f"></i>
         </a>
         </li>
         
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://plus.google.com/share?url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2f5_robotarium_intro%2f" onclick="window.open(this.href, 'google-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://plus.google.com/share?url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2frobotarium_sim_gnn%2f" onclick="window.open(this.href, 'google-share', 'width=550,height=435');return false;">
         <i class="fab fa-google"></i>
         </a>
         </li>
 
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2f5_robotarium_intro%2f" onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fchaitanyarajasekhar.github.io%2fsundevil-f110car%2fblog%2frobotarium_sim_gnn%2f" onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
         <i class="fab fa-xing"></i>
         </a>
         </li>        
@@ -119,9 +119,9 @@
                                 <span class="author-description">
                                     Creator of this blog.<br>
                                     <i class="far fa-star"></i>
-                                    Apr 26, 2019
+                                    May 9, 2019
                                     <i class="far fa-clock clock"></i>
-                                    1 min read
+                                    2 min read
                                 </span>					
                             </div>
                         </div>			
@@ -129,26 +129,38 @@
                         
                                                 
                         
-                        <h1 class="posttitle">Robotarium Intro</h1> 
+                        <h1 class="posttitle">Robotarium GNN Simulation</h1> 
                     </div>
 
                     
                     
-                        <img class="featured-image img-fluid" src="/sundevil-f110car/images/blog/5.png" alt="thumbnail for this post">
+                        <img class="featured-image img-fluid" src="/sundevil-f110car/images/blog/6.png" alt="thumbnail for this post">
                     
                     
                     
                     
                     <div class="article-post">
-                        <p><a href="https://www.robotarium.gatech.edu/">Robotarium</a> is a free multi-agents robots hardware platform launched by Prof. <a href="https://magnus.ece.gatech.edu/">Magnus Egerstedt</a>&rsquo;s lab from GaTech. It is developed by the intention of bringing the multi-agent hardware platform accessible to everyone, as maintaining it is expensive and not everyone can afford it.  One can use up to 20 robots to run the experiments. Robots are based on differential drive hardware. They also have simulators where one can test the experiments before uploading to the Robotatium. They support Matlab and python languages. Check out their <a href="https://github.com/robotarium/robotarium-matlab-simulator">Matlab</a> and <a href="https://github.com/robotarium/robotarium_python_simulator">python</a> simulators.</p>
+                        <p>In the chaser model, agent &lsquo;i&rsquo; tries to chase the agent &lsquo;i+1&rsquo; excluding the edge case condition. In the simulations below, a time step is considered to be 0.3 sec and the number of agents to be 20, and the number of time steps to be 50. Check out the <a href="https://github.com/chaitanyarajasekhar/Swarms">swarm&rsquo;s</a> repo for a detailed look at the implementation of the chaser model.</p>
 
-<p>Experiments can be submitted to run on the Robotarium hardware with a Robotarium account. Once logged in the new experiment tab contains an uploader to submit the experiment code along with some description and instructions to run it. According to their website, they usually perform the experiments in a few days and send the inference data for it.</p>
+<p>The agents in the Robotarium are controlled by the velocity inputs. The agents for this experiment is initialized in the circular fashion so that chasing action looks like agents rotating in circles with respect to the center of the testbed.</p>
 
-<p><img src="../5/robotarium_new_exp.png" alt="alt text" /></p>
+<p>The first <a href="https://github.com/chaitanyarajasekhar/robotarium-control">experiment</a> is just initialized the initial positions (circular positions) from the test data and execute the velocities command for the rest of the time steps. This experiment has position RMSE (root mean square error) of 0.1.</p>
 
-<p>Here is an example of a simple chaser model on their python simulator.</p>
+<p>Note: The agents are docked to the edge of the testbed, In the gif files it takes some time to get them to the initial conditions of the simulation.</p>
 
-<p><img src="../5/simple_chaser.gif" alt="alt text" /></p>
+<p><img src="../6_robotarium_gnn_sim/chaser_20_robotarium.gif" alt="alt text" /></p>
+
+<p>The graph neural network is trained with 5000 instances of the chaser model for 10,000 training steps. For more information on the GNN implementation check the run_dynamical.py in this <a href="https://github.com/chaitanyarajasekhar/GNN">repo</a>.  run_dynamical_robotarium.py file is used to the inference experiments in the Robotarium simulator.</p>
+
+<p>For the experiment below the GNN is used to predict the test data at the beginning and the velocities predictions are used to update the agents in the Robotarium. This execution has position RMSE of 0.7 approximately.</p>
+
+<p><img src="../6_robotarium_gnn_sim/gnn_robotarium.gif" alt="alt text" /></p>
+
+<p>But in the real world, we do not have access to future position information. So the above two models are not feasible to perform the real-world experiments. So the next experiment is done in such a way that at every time step the GNN is used to predict the next states from the current agent data. This does not work as expected because of the execution time of GNN at each time step takes 0.5 sec, therefore, the total execution takes 0.8 secs which causes a drift in positions causing the circle to expand seen the gif below.</p>
+
+<p><img src="../6_robotarium_gnn_sim/gnn_robotarium_dynamical.gif" alt="alt text" /></p>
+
+<p>Next time I will try to optimize the run time of GNN or find a better way to run GNN dynamically.</p>
 
                     </div>
                     
@@ -164,6 +176,10 @@
                         <a href="/sundevil-f110car/tags/multi-agent">multi-agent</a>
                         </li>
                         
+                        <li>
+                        <a href="/sundevil-f110car/tags/gnn">gnn</a>
+                        </li>
+                        
                         </ul>
                     </div>
                     
@@ -171,10 +187,8 @@
                     
                     <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
                     
-                        <a class="d-block col-md-6" href="/sundevil-f110car/blog/robotarium_sim_gnn/"> &laquo; Robotarium GNN Simulation</a>
                     
-                    
-                        <a class="d-block col-md-6 text-lg-right" href="/sundevil-f110car/blog/4_mpc_demo/">MPC - Collision Avoidance using Motion Capture &raquo;</a>
+                        <a class="d-block col-md-6 text-lg-right" href="/sundevil-f110car/blog/5_robotarium_intro/">Robotarium Intro &raquo;</a>
                     
                     <div class="clearfix"></div>
                     </div>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gnn on sundevil-f1/10car</title>
+    <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/gnn/</link>
+    <description>Recent content in Gnn on sundevil-f1/10car</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Chaitanya Rajasekhar - All rights reserved</copyright>
+    <lastBuildDate>Thu, 09 May 2019 10:28:40 -0700</lastBuildDate>
+    
+	<atom:link href="https://chaitanyarajasekhar.github.io/sundevil-f110car/tags/gnn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Robotarium GNN Simulation</title>
+      <link>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/robotarium_sim_gnn/</link>
+      <pubDate>Thu, 09 May 2019 10:28:40 -0700</pubDate>
+      
+      <guid>https://chaitanyarajasekhar.github.io/sundevil-f110car/blog/robotarium_sim_gnn/</guid>
+      <description>In the chaser model, agent &amp;lsquo;i&amp;rsquo; tries to chase the agent &amp;lsquo;i+1&amp;rsquo; excluding the edge case condition. In the simulations below, a time step is considered to be 0.</description>
+    </item>
+    
+  </channel>
+</rss>
